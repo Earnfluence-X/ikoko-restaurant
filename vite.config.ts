@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/ikoko-restaurant/',  // <-- ADD THIS LINE (change to your repo name)
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
